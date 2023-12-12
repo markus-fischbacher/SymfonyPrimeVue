@@ -15,16 +15,16 @@
  */
 return [
     'app' => [
-        'path' => 'app.js',
+        'path' => 'app.ts',
         'preload' => true,
-    ],
-    '@hotwired/stimulus' => [
-        'url' => 'https://cdn.jsdelivr.net/npm/@hotwired/stimulus@3.2.2/+esm',
     ],
     '@symfony/stimulus-bundle' => [
         'path' => '@symfony/stimulus-bundle/loader.js',
     ],
+    '@hotwired/stimulus' => [
+        'url' => 'https://cdn.jsdelivr.net/npm/@hotwired/stimulus@3.2.2/+esm',
+    ],
     '@hotwired/turbo' => [
-        'url' => 'https://cdn.jsdelivr.net/npm/@hotwired/turbo@7.3.0/+esm',
+        'url' => 'https://cdn.jsdelivr.net/npm/@hotwired/turbo@8.0.0-beta.1/+esm',
     ],
 ];
